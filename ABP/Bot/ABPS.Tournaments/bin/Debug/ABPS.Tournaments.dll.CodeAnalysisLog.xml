@@ -1,0 +1,1229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 11.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="11.0">
+ <Namespaces>
+  <Namespace Name="ABPS.Tournaments">
+   <Messages>
+    <Message Id="ABPS" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'ABPS' in namespace name 'ABPS.Tournaments' by changing it to 'Abps'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="ABPS.Tournaments.Graphics">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'ABPS.Tournaments.Graphics' with another namespace.</Issue>
+    </Message>
+    <Message Id="ABPS" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'ABPS' in namespace name 'ABPS.Tournaments.Graphics' by changing it to 'Abps'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="ABPS.Tournaments.Plugins">
+   <Messages>
+    <Message Id="ABPS" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'ABPS' in namespace name 'ABPS.Tournaments.Plugins' by changing it to 'Abps'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="ABPS.Tournaments.Standard">
+   <Messages>
+    <Message Id="ABPS" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'ABPS' in namespace name 'ABPS.Tournaments.Standard' by changing it to 'Abps'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="ABPS.Tournaments.Standard.Helpers">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'ABPS.Tournaments.Standard.Helpers' with another namespace.</Issue>
+    </Message>
+    <Message Id="ABPS" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'ABPS' in namespace name 'ABPS.Tournaments.Standard.Helpers' by changing it to 'Abps'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="ABPS.Tournaments.Standard.Plugins">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'ABPS.Tournaments.Standard.Plugins' with another namespace.</Issue>
+    </Message>
+    <Message Id="ABPS" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'ABPS' in namespace name 'ABPS.Tournaments.Standard.Plugins' by changing it to 'Abps'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+ </Namespaces>
+ <Targets>
+  <Target Name="E:\Research\CBSD\ABP\Bot\ABPS.Tournaments\bin\Debug\ABPS.Tournaments.dll">
+   <Modules>
+    <Module Name="abps.tournaments.dll">
+     <Messages>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'ABPS.Tournaments.dll' with a strong name key.</Issue>
+      </Message>
+      <Message Id="ABPS" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+       <Issue Name="Assembly" Certainty="85" Level="Error">Correct the casing of 'ABPS' in assembly name 'ABPS.Tournaments.dll' by changing it to 'Abps'.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="ABPS.Tournaments">
+       <Types>
+        <Type Name="Score" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#op_GreaterThan(ABPS.Tournaments.Score,ABPS.Tournaments.Score)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="Score.cs" Line="123">In externally visible method 'Score.operator &gt;(Score, Score)', validate parameter 'score1' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_GreaterThanOrEqual(ABPS.Tournaments.Score,ABPS.Tournaments.Score)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="Score.cs" Line="175">In externally visible method 'Score.operator &gt;=(Score, Score)', validate parameter 'score1' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_LessThan(ABPS.Tournaments.Score,ABPS.Tournaments.Score)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="Score.cs" Line="149">In externally visible method 'Score.operator &lt;(Score, Score)', validate parameter 'score1' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#op_LessThanOrEqual(ABPS.Tournaments.Score,ABPS.Tournaments.Score)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="Score.cs" Line="201">In externally visible method 'Score.operator &lt;=(Score, Score)', validate parameter 'score1' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TournamentNameTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Collections.Generic.IDictionary`2&lt;System.Int64,System.String&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="TournamentNameTable.cs" Line="51">In externally visible method 'TournamentNameTable.TournamentNameTable(IDictionary&lt;long, string&gt;)', validate parameter 'names' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="ABPS.Tournaments.Graphics">
+       <Types>
+        <Type Name="IGraphics" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#DrawBezier(System.Drawing.Pen,System.Drawing.Point,System.Drawing.Point,System.Drawing.Point,System.Drawing.Point)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="pt" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawBezier(Pen, Point, Point, Point, Point)', correct the spelling of 'pt' in parameter name 'pt1' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawBezier(Pen, Point, Point, Point, Point)', correct the spelling of 'pt' in parameter name 'pt2' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawBezier(Pen, Point, Point, Point, Point)', correct the spelling of 'pt' in parameter name 'pt3' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawBezier(Pen, Point, Point, Point, Point)', correct the spelling of 'pt' in parameter name 'pt4' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DrawBezier(System.Drawing.Pen,System.Drawing.PointF,System.Drawing.PointF,System.Drawing.PointF,System.Drawing.PointF)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="pt" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawBezier(Pen, PointF, PointF, PointF, PointF)', correct the spelling of 'pt' in parameter name 'pt1' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawBezier(Pen, PointF, PointF, PointF, PointF)', correct the spelling of 'pt' in parameter name 'pt2' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawBezier(Pen, PointF, PointF, PointF, PointF)', correct the spelling of 'pt' in parameter name 'pt3' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawBezier(Pen, PointF, PointF, PointF, PointF)', correct the spelling of 'pt' in parameter name 'pt4' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DrawBezier(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawBezier(Pen, float, float, float, float, float, float, float, float)', correct the spelling of 'x' in parameter name 'x1' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawBezier(Pen, float, float, float, float, float, float, float, float)', correct the spelling of 'x' in parameter name 'x2' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawBezier(Pen, float, float, float, float, float, float, float, float)', correct the spelling of 'x' in parameter name 'x3' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawBezier(Pen, float, float, float, float, float, float, float, float)', correct the spelling of 'x' in parameter name 'x4' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawBezier(Pen, float, float, float, float, float, float, float, float)', correct the spelling of 'y' in parameter name 'y1' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawBezier(Pen, float, float, float, float, float, float, float, float)', correct the spelling of 'y' in parameter name 'y2' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawBezier(Pen, float, float, float, float, float, float, float, float)', correct the spelling of 'y' in parameter name 'y3' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawBezier(Pen, float, float, float, float, float, float, float, float)', correct the spelling of 'y' in parameter name 'y4' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DrawImageUnscaled(System.Drawing.Image,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawImageUnscaled(Image, int, int)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawImageUnscaled(Image, int, int)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DrawImageUnscaled(System.Drawing.Image,System.Int32,System.Int32,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawImageUnscaled(Image, int, int, int, int)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawImageUnscaled(Image, int, int, int, int)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DrawLine(System.Drawing.Pen,System.Drawing.Point,System.Drawing.Point)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="pt" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawLine(Pen, Point, Point)', correct the spelling of 'pt' in parameter name 'pt1' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawLine(Pen, Point, Point)', correct the spelling of 'pt' in parameter name 'pt2' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DrawLine(System.Drawing.Pen,System.Drawing.PointF,System.Drawing.PointF)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="pt" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawLine(Pen, PointF, PointF)', correct the spelling of 'pt' in parameter name 'pt1' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawLine(Pen, PointF, PointF)', correct the spelling of 'pt' in parameter name 'pt2' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.PointF)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="s" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawString(string, Font, Brush, PointF)', consider providing a more meaningful name than parameter name 's'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.PointF,System.Drawing.StringFormat)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="s" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawString(string, Font, Brush, PointF, StringFormat)', consider providing a more meaningful name than parameter name 's'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.RectangleF)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="s" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawString(string, Font, Brush, RectangleF)', consider providing a more meaningful name than parameter name 's'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.RectangleF,System.Drawing.StringFormat)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="s" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawString(string, Font, Brush, RectangleF, StringFormat)', consider providing a more meaningful name than parameter name 's'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Single,System.Single)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="s" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawString(string, Font, Brush, float, float)', consider providing a more meaningful name than parameter name 's'.</Issue>
+            </Message>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawString(string, Font, Brush, float, float)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawString(string, Font, Brush, float, float)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Single,System.Single,System.Drawing.StringFormat)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="s" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawString(string, Font, Brush, float, float, StringFormat)', consider providing a more meaningful name than parameter name 's'.</Issue>
+            </Message>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawString(string, Font, Brush, float, float, StringFormat)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.DrawString(string, Font, Brush, float, float, StringFormat)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FillEllipse(System.Drawing.Brush,System.Int32,System.Int32,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.FillEllipse(Brush, int, int, int, int)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.FillEllipse(Brush, int, int, int, int)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FillEllipse(System.Drawing.Brush,System.Single,System.Single,System.Single,System.Single)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.FillEllipse(Brush, float, float, float, float)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.FillEllipse(Brush, float, float, float, float)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FillPie(System.Drawing.Brush,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.FillPie(Brush, int, int, int, int, int, int)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.FillPie(Brush, int, int, int, int, int, int)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FillPie(System.Drawing.Brush,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.FillPie(Brush, float, float, float, float, float, float)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.FillPie(Brush, float, float, float, float, float, float)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FillRectangle(System.Drawing.Brush,System.Int32,System.Int32,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.FillRectangle(Brush, int, int, int, int)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.FillRectangle(Brush, int, int, int, int)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FillRectangle(System.Drawing.Brush,System.Single,System.Single,System.Single,System.Single)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.FillRectangle(Brush, float, float, float, float)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.FillRectangle(Brush, float, float, float, float)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetHdc()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning">Change 'IGraphics.GetHdc()' to a property if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsVisible(System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.IsVisible(int, int)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.IsVisible(int, int)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsVisible(System.Int32,System.Int32,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.IsVisible(int, int, int, int)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.IsVisible(int, int, int, int)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsVisible(System.Single,System.Single)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.IsVisible(float, float)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.IsVisible(float, float)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsVisible(System.Single,System.Single,System.Single,System.Single)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.IsVisible(float, float, float, float)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.IsVisible(float, float, float, float)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MeasureString(System.String,System.Drawing.Font,System.Drawing.SizeF,System.Drawing.StringFormat,System.Int32&amp;,System.Int32&amp;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="4#" TypeName="AvoidOutParameters" Category="Microsoft.Design" CheckId="CA1021" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning">Consider a design that does not require that 'charactersFitted' be an out parameter.</Issue>
+            </Message>
+            <Message Id="5#" TypeName="AvoidOutParameters" Category="Microsoft.Design" CheckId="CA1021" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning">Consider a design that does not require that 'linesFilled' be an out parameter.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ScaleTransform(System.Single,System.Single)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="sx" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.ScaleTransform(float, float)', correct the spelling of 'sx' in parameter name 'sx' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="sy" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.ScaleTransform(float, float)', correct the spelling of 'sy' in parameter name 'sy' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ScaleTransform(System.Single,System.Single,System.Drawing.Drawing2D.MatrixOrder)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="sx" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.ScaleTransform(float, float, MatrixOrder)', correct the spelling of 'sx' in parameter name 'sx' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="sy" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.ScaleTransform(float, float, MatrixOrder)', correct the spelling of 'sy' in parameter name 'sy' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetClip(System.Drawing.Graphics)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="g" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.SetClip(Graphics)', consider providing a more meaningful name than parameter name 'g'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetClip(System.Drawing.Graphics,System.Drawing.Drawing2D.CombineMode)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="g" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGraphics.SetClip(Graphics, CombineMode)', consider providing a more meaningful name than parameter name 'g'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TransformPoints(System.Drawing.Drawing2D.CoordinateSpace,System.Drawing.Drawing2D.CoordinateSpace,System.Drawing.Point[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="pts" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.TransformPoints(CoordinateSpace, CoordinateSpace, Point[])', correct the spelling of 'pts' in parameter name 'pts' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TransformPoints(System.Drawing.Drawing2D.CoordinateSpace,System.Drawing.Drawing2D.CoordinateSpace,System.Drawing.PointF[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="pts" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.TransformPoints(CoordinateSpace, CoordinateSpace, PointF[])', correct the spelling of 'pts' in parameter name 'pts' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TranslateClip(System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dy" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.TranslateClip(int, int)', correct the spelling of 'dy' in parameter name 'dy' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TranslateClip(System.Single,System.Single)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dy" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.TranslateClip(float, float)', correct the spelling of 'dy' in parameter name 'dy' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TranslateTransform(System.Single,System.Single)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dy" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.TranslateTransform(float, float)', correct the spelling of 'dy' in parameter name 'dy' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TranslateTransform(System.Single,System.Single,System.Drawing.Drawing2D.MatrixOrder)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dy" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IGraphics.TranslateTransform(float, float, MatrixOrder)', correct the spelling of 'dy' in parameter name 'dy' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="ABPS.Tournaments.Plugins">
+       <Types>
+        <Type Name="PairingsGeneratorFactory`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Create()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Plugins" File="PairingsGeneratorFactory.cs" Line="73">Because the behavior of 'string.Format(string, object)' could vary based on the current user's locale settings, replace this call in 'PairingsGeneratorFactory&lt;T&gt;.Create()' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PluginLoader" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#LoadPlugins(System.Reflection.Assembly)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Plugins" File="PluginLoader.cs" Line="87">In externally visible method 'PluginLoader.LoadPlugins(Assembly)', validate parameter 'assembly' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TournamentVisualizerFactory`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Create()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Plugins" File="TournamentVisualizerFactory.cs" Line="73">Because the behavior of 'string.Format(string, object)' could vary based on the current user's locale settings, replace this call in 'TournamentVisualizerFactory&lt;T&gt;.Create()' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="ABPS.Tournaments.Standard">
+       <Types>
+        <Type Name="ContinuationDecider" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#HasTeam(ABPS.Tournaments.TournamentTeam)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="ContinuationDecider.cs" Line="183">In externally visible method 'ContinuationDecider.HasTeam(TournamentTeam)', validate parameter 'team' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MeasureLoser(ABPS.Tournaments.Graphics.IGraphics,ABPS.Tournaments.TournamentNameTable,System.Single,ABPS.Tournaments.Score)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="ContinuationDecider.cs" Line="249">In externally visible method 'ContinuationDecider.MeasureLoser(IGraphics, TournamentNameTable, float, Score)', validate parameter 'names' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MeasureWinner(ABPS.Tournaments.Graphics.IGraphics,ABPS.Tournaments.TournamentNameTable,System.Single,ABPS.Tournaments.Score)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="ContinuationDecider.cs" Line="206">In externally visible method 'ContinuationDecider.MeasureWinner(IGraphics, TournamentNameTable, float, Score)', validate parameter 'names' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RenderLoser(ABPS.Tournaments.Graphics.IGraphics,ABPS.Tournaments.TournamentNameTable,System.Single,System.Single,System.Single,ABPS.Tournaments.Score)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="ContinuationDecider.cs" Line="305">In externally visible method 'ContinuationDecider.RenderLoser(IGraphics, TournamentNameTable, float, float, float, Score)', validate parameter 'names' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RenderWinner(ABPS.Tournaments.Graphics.IGraphics,ABPS.Tournaments.TournamentNameTable,System.Single,System.Single,System.Single,ABPS.Tournaments.Score)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="ContinuationDecider.cs" Line="270">In externally visible method 'ContinuationDecider.RenderWinner(IGraphics, TournamentNameTable, float, float, float, Score)', validate parameter 'names' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TeamsMatch(ABPS.Tournaments.TournamentTeam,ABPS.Tournaments.TournamentTeam)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="ContinuationDecider.cs" Line="373">The 'this' parameter (or 'Me' in Visual Basic) of 'ContinuationDecider.TeamsMatch(TournamentTeam, TournamentTeam)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="EliminationDecider" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implement IDisposable on 'EliminationDecider' because it creates members of the following IDisposable types: 'SolidBrush', 'Font', 'Pen'. If 'EliminationDecider' has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#CommonAncestor" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#get_CommonAncestor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message Id="EliminationNode" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+               <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="85">Correct the spelling of the unrecognized token 'EliminationNode' in the literal '"An elimination decider must have a parent EliminationNode."'.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#GetLoser()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning">Change 'EliminationDecider.GetLoser()' to a property if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetWinner()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning">Change 'EliminationDecider.GetWinner()' to a property if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Level" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#get_Level()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message Id="EliminationNode" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+               <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="70">Correct the spelling of the unrecognized token 'EliminationNode' in the literal '"An elimination decider must have a parent EliminationNode."'.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#MeasureLoser(ABPS.Tournaments.Graphics.IGraphics,ABPS.Tournaments.TournamentNameTable,System.Single,ABPS.Tournaments.Score)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="g" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'EliminationDecider.MeasureLoser(IGraphics, TournamentNameTable, float, Score)', consider providing a more meaningful name than parameter name 'g'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MeasureTextBox(ABPS.Tournaments.Graphics.IGraphics,System.Single,System.String,ABPS.Tournaments.Score)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="g" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="137">In method 'EliminationDecider.MeasureTextBox(IGraphics, float, string, Score)', consider providing a more meaningful name than parameter name 'g'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MeasureTextBox(ABPS.Tournaments.Graphics.IGraphics,System.Single,System.String,System.String)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ABPS.Tournaments.Graphics.IGraphics.MeasureString(System.String,System.Drawing.Font)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="154">Method 'EliminationDecider.MeasureTextBox(IGraphics, float, string, string)' passes a literal string as parameter 'text' of a call to 'IGraphics.MeasureString(string, Font)'. Retrieve the following string(s) from a resource table instead: "...".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="160">Method 'EliminationDecider.MeasureTextBox(IGraphics, float, string, string)' passes a literal string as parameter 'text' of a call to 'IGraphics.MeasureString(string, Font)'. Retrieve the following string(s) from a resource table instead: "...".</Issue>
+            </Message>
+            <Message Id="g" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="143">In method 'EliminationDecider.MeasureTextBox(IGraphics, float, string, string)', consider providing a more meaningful name than parameter name 'g'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="147">In externally visible method 'EliminationDecider.MeasureTextBox(IGraphics, float, string, string)', validate parameter 'g' before using it.</Issue>
+            </Message>
+            <Message Id="2" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="150">In externally visible method 'EliminationDecider.MeasureTextBox(IGraphics, float, string, string)', validate parameter 'teamName' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MeasureTree(ABPS.Tournaments.Graphics.IGraphics,ABPS.Tournaments.TournamentNameTable,System.Single,ABPS.Tournaments.Standard.EliminationNode,ABPS.Tournaments.Standard.EliminationNode)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="g" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="232">In method 'EliminationDecider.MeasureTree(IGraphics, TournamentNameTable, float, EliminationNode, EliminationNode)', consider providing a more meaningful name than parameter name 'g'.</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="232">The 'this' parameter (or 'Me' in Visual Basic) of 'EliminationDecider.MeasureTree(IGraphics, TournamentNameTable, float, EliminationNode, EliminationNode)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MeasureWinner(ABPS.Tournaments.Graphics.IGraphics,ABPS.Tournaments.TournamentNameTable,System.Single,ABPS.Tournaments.Score)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="g" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'EliminationDecider.MeasureWinner(IGraphics, TournamentNameTable, float, Score)', consider providing a more meaningful name than parameter name 'g'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RenderLoser(ABPS.Tournaments.Graphics.IGraphics,ABPS.Tournaments.TournamentNameTable,System.Single,System.Single,System.Single,ABPS.Tournaments.Score)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="g" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'EliminationDecider.RenderLoser(IGraphics, TournamentNameTable, float, float, float, Score)', consider providing a more meaningful name than parameter name 'g'.</Issue>
+            </Message>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'EliminationDecider.RenderLoser(IGraphics, TournamentNameTable, float, float, float, Score)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'EliminationDecider.RenderLoser(IGraphics, TournamentNameTable, float, float, float, Score)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RenderTextBox(ABPS.Tournaments.Graphics.IGraphics,System.Single,System.Single,System.Single,System.String,ABPS.Tournaments.Score)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="g" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="172">In method 'EliminationDecider.RenderTextBox(IGraphics, float, float, float, string, Score)', consider providing a more meaningful name than parameter name 'g'.</Issue>
+            </Message>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="172">In method 'EliminationDecider.RenderTextBox(IGraphics, float, float, float, string, Score)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="172">In method 'EliminationDecider.RenderTextBox(IGraphics, float, float, float, string, Score)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RenderTextBox(ABPS.Tournaments.Graphics.IGraphics,System.Single,System.Single,System.Single,System.String,System.String)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ABPS.Tournaments.Graphics.IGraphics.MeasureString(System.String,System.Drawing.Font)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="199">Method 'EliminationDecider.RenderTextBox(IGraphics, float, float, float, string, string)' passes a literal string as parameter 'text' of a call to 'IGraphics.MeasureString(string, Font)'. Retrieve the following string(s) from a resource table instead: "...".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="205">Method 'EliminationDecider.RenderTextBox(IGraphics, float, float, float, string, string)' passes a literal string as parameter 'text' of a call to 'IGraphics.MeasureString(string, Font)'. Retrieve the following string(s) from a resource table instead: "...".</Issue>
+            </Message>
+            <Message Id="g" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="178">In method 'EliminationDecider.RenderTextBox(IGraphics, float, float, float, string, string)', consider providing a more meaningful name than parameter name 'g'.</Issue>
+            </Message>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="178">In method 'EliminationDecider.RenderTextBox(IGraphics, float, float, float, string, string)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="178">In method 'EliminationDecider.RenderTextBox(IGraphics, float, float, float, string, string)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="181">In externally visible method 'EliminationDecider.RenderTextBox(IGraphics, float, float, float, string, string)', validate parameter 'g' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RenderTree(ABPS.Tournaments.Graphics.IGraphics,ABPS.Tournaments.TournamentNameTable,System.Single,System.Single,System.Single,ABPS.Tournaments.Standard.EliminationNode,ABPS.Tournaments.Standard.EliminationNode)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="g" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="265">In method 'EliminationDecider.RenderTree(IGraphics, TournamentNameTable, float, float, float, EliminationNode, EliminationNode)', consider providing a more meaningful name than parameter name 'g'.</Issue>
+            </Message>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="265">In method 'EliminationDecider.RenderTree(IGraphics, TournamentNameTable, float, float, float, EliminationNode, EliminationNode)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="265">In method 'EliminationDecider.RenderTree(IGraphics, TournamentNameTable, float, float, float, EliminationNode, EliminationNode)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="277">In externally visible method 'EliminationDecider.RenderTree(IGraphics, TournamentNameTable, float, float, float, EliminationNode, EliminationNode)', validate parameter 'g' before using it.</Issue>
+            </Message>
+            <Message Id="5" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="316">In externally visible method 'EliminationDecider.RenderTree(IGraphics, TournamentNameTable, float, float, float, EliminationNode, EliminationNode)', validate parameter 'nodeA' before using it.</Issue>
+            </Message>
+            <Message Id="6" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="EliminationDecider.cs" Line="317">In externally visible method 'EliminationDecider.RenderTree(IGraphics, TournamentNameTable, float, float, float, EliminationNode, EliminationNode)', validate parameter 'nodeB' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RenderWinner(ABPS.Tournaments.Graphics.IGraphics,ABPS.Tournaments.TournamentNameTable,System.Single,System.Single,System.Single,ABPS.Tournaments.Score)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="g" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'EliminationDecider.RenderWinner(IGraphics, TournamentNameTable, float, float, float, Score)', consider providing a more meaningful name than parameter name 'g'.</Issue>
+            </Message>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'EliminationDecider.RenderWinner(IGraphics, TournamentNameTable, float, float, float, Score)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'EliminationDecider.RenderWinner(IGraphics, TournamentNameTable, float, float, float, Score)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#secondaryParents" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'EliminationDecider.secondaryParents' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error">Change 'List&lt;EliminationNode&gt;' in 'EliminationDecider.secondaryParents' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="EliminationNode" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="AbstractTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1012" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="CriticalWarning">Change the accessibility of all public constructors in 'EliminationNode' to protected.</Issue>
+          </Message>
+          <Message TypeName="IdentifiersShouldDifferByMoreThanCase" Category="Microsoft.Naming" CheckId="CA1708" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+           <Issue Name="Member" Certainty="95" Level="Error">Change member names 'Decider' and 'decider' so that they differ by more than case.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#decider" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'EliminationNode.decider' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Measure(ABPS.Tournaments.Graphics.IGraphics,ABPS.Tournaments.TournamentNameTable,System.Single)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="g" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'EliminationNode.Measure(IGraphics, TournamentNameTable, float)', consider providing a more meaningful name than parameter name 'g'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render(ABPS.Tournaments.Graphics.IGraphics,ABPS.Tournaments.TournamentNameTable,System.Single,System.Single,System.Single)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="g" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'EliminationNode.Render(IGraphics, TournamentNameTable, float, float, float)', consider providing a more meaningful name than parameter name 'g'.</Issue>
+            </Message>
+            <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'EliminationNode.Render(IGraphics, TournamentNameTable, float, float, float)', consider providing a more meaningful name than parameter name 'x'.</Issue>
+            </Message>
+            <Message Id="y" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'EliminationNode.Render(IGraphics, TournamentNameTable, float, float, float)', consider providing a more meaningful name than parameter name 'y'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#secondaryParents" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'EliminationNode.secondaryParents' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error">Change 'List&lt;EliminationDecider&gt;' in 'EliminationNode.secondaryParents' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="EliminationTournament" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implement IDisposable on 'EliminationTournament' because it creates members of the following IDisposable types: 'Font'. If 'EliminationTournament' has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#BuildLoserNodes(System.Collections.Generic.IEnumerable`1&lt;ABPS.Tournaments.Standard.EliminationDecider&gt;)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="EliminationTournament.cs" Line="380">The 'this' parameter (or 'Me' in Visual Basic) of 'EliminationTournament.BuildLoserNodes(IEnumerable&lt;EliminationDecider&gt;)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BuildTree(System.Collections.Generic.IEnumerable`1&lt;ABPS.Tournaments.TournamentTeam&gt;)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="EliminationTournament.cs" Line="240">'EliminationTournament.BuildTree(IEnumerable&lt;TournamentTeam&gt;)' has a cyclomatic complexity of 40. Rewrite or refactor the method to reduce complexity to 25.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetTextHeight(ABPS.Tournaments.Graphics.IGraphics)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="ABPS.Tournaments.Graphics.IGraphics.MeasureString(System.String,System.Drawing.Font)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="EliminationTournament.cs" Line="561">Method 'EliminationTournament.GetTextHeight(IGraphics)' passes a literal string as parameter 'text' of a call to 'IGraphics.MeasureString(string, Font)'. Retrieve the following string(s) from a resource table instead: "abfgijlpqyAIJQ170,`\'\"".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetTupleName(System.Int32)" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="EliminationTournament.cs" Line="580">Because the behavior of 'int.ToString()' could vary based on the current user's locale settings, replace this call in 'EliminationTournament.GetTupleName(int)' with a call to 'int.ToString(IFormatProvider)'. If the result of 'int.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InterleaveNodes(System.Collections.Generic.List`1&lt;ABPS.Tournaments.Standard.EliminationNode&gt;,System.Collections.Generic.List`1&lt;ABPS.Tournaments.Standard.EliminationNode&gt;)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="EliminationTournament.cs" Line="362">The 'this' parameter (or 'Me' in Visual Basic) of 'EliminationTournament.InterleaveNodes(List&lt;EliminationNode&gt;, List&lt;EliminationNode&gt;)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LoadState(System.Collections.Generic.IEnumerable`1&lt;ABPS.Tournaments.TournamentTeam&gt;,System.Collections.Generic.IList`1&lt;ABPS.Tournaments.TournamentRound&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="EliminationTournament.cs" Line="89">'EliminationTournament.LoadState(IEnumerable&lt;TournamentTeam&gt;, IList&lt;TournamentRound&gt;)' has a cyclomatic complexity of 48. Rewrite or refactor the method to reduce complexity to 25.</Issue>
+            </Message>
+            <Message Id="scoreA" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="EliminationTournament.cs" Line="137">'EliminationTournament.LoadState(IEnumerable&lt;TournamentTeam&gt;, IList&lt;TournamentRound&gt;)' declares a variable, 'scoreA', of type 'Score', which is never used or is only assigned to. Use this variable or remove it.</Issue>
+            </Message>
+            <Message Id="scoreB" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="EliminationTournament.cs" Line="138">'EliminationTournament.LoadState(IEnumerable&lt;TournamentTeam&gt;, IList&lt;TournamentRound&gt;)' declares a variable, 'scoreB', of type 'Score', which is never used or is only assigned to. Use this variable or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MakeSiblings(ABPS.Tournaments.Standard.EliminationNode,ABPS.Tournaments.Standard.EliminationNode)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="EliminationTournament.cs" Line="417">The 'this' parameter (or 'Me' in Visual Basic) of 'EliminationTournament.MakeSiblings(EliminationNode, EliminationNode)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render(ABPS.Tournaments.Graphics.IGraphics,ABPS.Tournaments.TournamentNameTable)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="size" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="EliminationTournament.cs" Line="550">'EliminationTournament.Render(IGraphics, TournamentNameTable)' declares a variable, 'size', of type 'SizeF', which is never used or is only assigned to. Use this variable or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SwapDeciders(ABPS.Tournaments.Standard.EliminationDecider,ABPS.Tournaments.Standard.EliminationDecider)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="EliminationTournament.cs" Line="229">The 'this' parameter (or 'Me' in Visual Basic) of 'EliminationTournament.SwapDeciders(EliminationDecider, EliminationDecider)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="NodeMeasurement" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Single,System.Single,System.Single)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="centerLine" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="NodeMeasurement.cs" Line="10">In member 'NodeMeasurement.NodeMeasurement(float, float, float)', the compound word 'centerLine' in parameter name 'centerLine' exists as a discrete term. If your usage is intended to be single word, case it as 'centerline' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CenterLine" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="CenterLine" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'CenterLine' in member name 'NodeMeasurement.CenterLine' exists as a discrete term. If your usage is intended to be single word, case it as 'Centerline' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PassThroughDecider" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#MeasureWinner(ABPS.Tournaments.Graphics.IGraphics,ABPS.Tournaments.TournamentNameTable,System.Single,ABPS.Tournaments.Score)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="PassThroughDecider.cs" Line="82">In externally visible method 'PassThroughDecider.MeasureWinner(IGraphics, TournamentNameTable, float, Score)', validate parameter 'names' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RenderWinner(ABPS.Tournaments.Graphics.IGraphics,ABPS.Tournaments.TournamentNameTable,System.Single,System.Single,System.Single,ABPS.Tournaments.Score)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="PassThroughDecider.cs" Line="106">In externally visible method 'PassThroughDecider.RenderWinner(IGraphics, TournamentNameTable, float, float, float, Score)', validate parameter 'names' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="StayDecider" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#MeasureWinner(ABPS.Tournaments.Graphics.IGraphics,ABPS.Tournaments.TournamentNameTable,System.Single,ABPS.Tournaments.Score)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="StayDecider.cs" Line="135">In externally visible method 'StayDecider.MeasureWinner(IGraphics, TournamentNameTable, float, Score)', validate parameter 'names' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RenderWinner(ABPS.Tournaments.Graphics.IGraphics,ABPS.Tournaments.TournamentNameTable,System.Single,System.Single,System.Single,ABPS.Tournaments.Score)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="StayDecider.cs" Line="170">In externally visible method 'StayDecider.RenderWinner(IGraphics, TournamentNameTable, float, float, float, Score)', validate parameter 'names' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SystemGraphics" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="SystemGraphics.cs" Line="36">In method 'SystemGraphics.SystemGraphics()', call System.IDisposable.Dispose on object 'new Bitmap(1, 1)' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#.ctor(System.Drawing.Image)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="targetImage" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="SystemGraphics.cs" Line="28">Correct the spelling of the unrecognized token 'targetImage' in the literal '"targetImage"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetHdc()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="SystemGraphics.cs" Line="1054">'SystemGraphics.GetHdc()' calls into 'Graphics.GetHdc()' which has a LinkDemand. By making this call, 'Graphics.GetHdc()' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'SystemGraphics.GetHdc()'&#xD;&#xA;   -&gt;'SystemGraphics.GetHdc()'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ReleaseHdc()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="SystemGraphics.cs" Line="1169">'SystemGraphics.ReleaseHdc()' calls into 'Graphics.ReleaseHdc()' which has a LinkDemand. By making this call, 'Graphics.ReleaseHdc()' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'SystemGraphics.ReleaseHdc()'&#xD;&#xA;   -&gt;'SystemGraphics.ReleaseHdc()'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ReleaseHdcInternal(System.IntPtr)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments" File="SystemGraphics.cs" Line="1179">'SystemGraphics.ReleaseHdcInternal(IntPtr)' calls into 'Graphics.ReleaseHdcInternal(IntPtr)' which has a LinkDemand. By making this call, 'Graphics.ReleaseHdcInternal(IntPtr)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'SystemGraphics.ReleaseHdcInternal(IntPtr)'&#xD;&#xA;   -&gt;'SystemGraphics.ReleaseHdcInternal(IntPtr)'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TeamDecider" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#MeasureWinner(ABPS.Tournaments.Graphics.IGraphics,ABPS.Tournaments.TournamentNameTable,System.Single,ABPS.Tournaments.Score)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="TeamDecider.cs" Line="74">In externally visible method 'TeamDecider.MeasureWinner(IGraphics, TournamentNameTable, float, Score)', validate parameter 'names' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RenderWinner(ABPS.Tournaments.Graphics.IGraphics,ABPS.Tournaments.TournamentNameTable,System.Single,System.Single,System.Single,ABPS.Tournaments.Score)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Helpers" File="TeamDecider.cs" Line="84">In externally visible method 'TeamDecider.RenderWinner(IGraphics, TournamentNameTable, float, float, float, Score)', validate parameter 'names' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="ABPS.Tournaments.Standard.Plugins">
+       <Types>
+        <Type Name="EliminationTournamentFactory" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ABPS.Tournaments.Plugins.IPairingsGeneratorFactory.Create()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Plugins" File="EliminationTournamentFactory.cs" Line="37">Make 'EliminationTournamentFactory' sealed (a breaking change if this class has previously shipped), implement the method non-explicitly, or implement a new method that exposes the functionality of 'IPairingsGeneratorFactory.Create()' and is visible to derived classes.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ABPS.Tournaments.Plugins.ITournamentVisualizerFactory.Create()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2016-08-05 15:29:38Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="e:\Research\CBSD\ABP\Bot\ABPS.Tournaments\Plugins" File="EliminationTournamentFactory.cs" Line="42">Make 'EliminationTournamentFactory' sealed (a breaking change if this class has previously shipped), implement the method non-explicitly, or implement a new method that exposes the functionality of 'ITournamentVisualizerFactory.Create()' and is visible to derived classes.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AbstractTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1012">
+   <Name>Abstract types should not have constructors</Name>
+   <Description>Public constructors for abstract types do not make sense because you cannot create instances of abstract types.</Description>
+   <Resolution Name="Default">Change the accessibility of all public constructors in {0} to protected.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182126(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+   <Name>Assemblies should have valid strong names</Name>
+   <Description>Either the assembly has no strong name, an invalid one, or the strong name is valid only because of the computer configuration. The assembly should not be deployed in this state. The most common causes of this are: 1) The assembly's contents were modified after it was signed. 2) The signing process failed. 3) The assembly was delay-signed. 4) A registry key existed that allowed the check to pass (where it would not have otherwise).</Description>
+   <Resolution Name="NoStrongName">Sign {0} with a strong name key.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182127(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502">
+   <Name>Avoid excessive complexity</Name>
+   <Description>Method implementations that are exceedingly complex increase the challenge of understanding and maintaining code.</Description>
+   <Resolution Name="Default">{0} has a cyclomatic complexity of {1}. Rewrite or refactor the method to reduce complexity to {2}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182212(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Warning</MessageLevel>
+   <File Name="maintainabilityrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020">
+   <Name>Avoid namespaces with few types</Name>
+   <Description>A namespace should generally have more than five types.</Description>
+   <Resolution Name="Default">Consider merging the types defined in '{0}' with another namespace.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182130(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">Warning</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidOutParameters" Category="Microsoft.Design" CheckId="CA1021">
+   <Name>Avoid out parameters</Name>
+   <Description>Using out parameters might indicate a design flaw. Although there are legitimate times to use out parameters, their use frequently indicates a design that does not conform to the design guidelines for managed code.</Description>
+   <Resolution Name="Default">Consider a design that does not require that {0} be an out parameter.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182131(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">Warning</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702">
+   <Name>Compound words should be cased correctly</Name>
+   <Description>Avoid creating compound words from terms which exist in the dictionary as discrete terms. Do not create a compound word such as 'StopWatch' or 'PopUp'. These terms are recognized in the dictionary and should be cased as 'Stopwatch' and 'Popup'.</Description>
+   <Resolution Name="MemberParameterShouldBeDiscreteTerm">In member {0}, the compound word '{1}' in parameter name {2} exists as a discrete term. If your usage is intended to be single word, case it as '{3}' or strip the first token entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MemberShouldBeDiscreteTerm">The compound word '{0}' in member name {1} exists as a discrete term. If your usage is intended to be single word, case it as '{2}' or strip the first token entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264474(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="80">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>Dispose objects before losing scope</Name>
+   <Description>If a disposable object is not explicitly disposed before all references to it are out of scope, the object will be disposed at some indeterminate time when the garbage collector runs the finalizer of the object. Because an exceptional event might occur that will prevent the finalizer of the object from running, the object should be explicitly disposed instead.</Description>
+   <Resolution Name="NonExceptionEdge">In method {0}, call System.IDisposable.Dispose on object {1} before all references to it are out of scope.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182289(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303">
+   <Name>Do not pass literals as localized parameters</Name>
+   <Description>Literal strings that are embedded in source code are difficult to localize. Avoid passing literal strings as arguments in circumstances where a localized string is generally expected.</Description>
+   <Resolution Name="KnownValue">Method {0} passes a literal string as parameter '{1}' of a call to {2}. Retrieve the following string(s) from a resource table instead: {3}.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182187(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051">
+   <Name>Do not declare visible instance fields</Name>
+   <Description>Instance fields that are visible outside of the type that declares them, limit your ability to change the implementation details for those data items. Use properties instead. They do not compromise usability or performance and they do provide flexibility in that they conceal the implementation details of the underlying data.</Description>
+   <Resolution Name="Default">Because field {0} is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182141(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002">
+   <Name>Do not expose generic lists</Name>
+   <Description>Do not expose List&lt;T&gt; in object models. Use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt; instead. List&lt;T&gt; is meant to be used from implementation, not in object model API. List&lt;T&gt; is optimized for performance at the cost of long term versioning. For example, if you return List&lt;T&gt; to the client code, you will not ever be able to receive notifications when client code modifies the collection.</Description>
+   <Resolution Name="Default">Change {0} in {1} to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182142(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122">
+   <Name>Do not indirectly expose methods with link demands</Name>
+   <Description>Do not wrap a method protected by a LinkDemand with a method that does not perform a security check. A LinkDemand checks the permissions of the immediate caller rather than checking the permissions of all callers in the call stack. In this case, the permissions of the wrapper method will be checked. If the wrapper method does not, itself, check the permissions of callers higher in the call stack, malicious code might be able to execute the wrapped function even though it lacks permission to do so.</Description>
+   <Resolution Name="Default">{0} calls into {1} which has a LinkDemand. By making this call, {1} is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: {2}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182303(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="33">CriticalError</MessageLevel>
+   <File Name="securityrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709">
+   <Name>Identifiers should be cased correctly</Name>
+   <Description>Type, namespace, and member identifiers are Pascal-cased. Parameter identifiers are camel-cased. Two letter acronyms within these identifiers should be upper-cased, for example, use System.IO instead of System.Io. Acronyms of three or more letters should be Pascal-cased, for example, use System.Xml instead of System.XML. The pascal-casing convention capitalizes the first letter of each word, as in BackColor. The camel-casing convention formats the first letter of the first word in lowercase and capitalizes the first letter of all subsequent words, as in backgroundColor. Although it may be common practice for some two letter acronyms to not be fully capitalized, violations of this rule should not be excluded for this reason. For example, 'DbConnection', is common but incorrect; use DBConnection. A violation of this rule might be required for compatibility with existing, non-managed symbol schemes. In general, however, these symbols should not be visible outside the assembly that uses them.</Description>
+   <Resolution Name="Assembly">Correct the casing of '{0}' in assembly name {1} by changing it to '{2}'.</Resolution>
+   <Resolution Name="Namespace">Correct the casing of '{0}' in namespace name '{1}' by changing it to '{2}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182240(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="85">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+   <Name>Identifiers should be spelled correctly</Name>
+   <Description>The individual words that make up an identifier should not be abbreviated and should be spelled correctly. If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</Description>
+   <Resolution Name="MemberParameter">In method {0}, correct the spelling of '{1}' in parameter name {2} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MemberParameterMoreMeaningfulName">In method {0}, consider providing a more meaningful name than parameter name {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264492(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="namingrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldDifferByMoreThanCase" Category="Microsoft.Naming" CheckId="CA1708">
+   <Name>Identifiers should differ by more than case</Name>
+   <Description>Do not use names that require case sensitivity for uniqueness. Components must be fully usable from both case-sensitive and case-insensitive languages. Since case-insensitive languages cannot distinguish between two names within the same context that differ only by case, components must avoid this situation.</Description>
+   <Resolution Name="Member">Change member names {0} and '{1}' so that they differ by more than case.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182242(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033">
+   <Name>Interface methods should be callable by child types</Name>
+   <Description>Explicit method implementations are defined with private accessibility. Classes that derive from classes with explicit method implementations and choose to re-declare them on the class will not be able to call into the base class implementation unless the base class has provided an alternate method with appropriate accessibility. When overriding a base class method that has been hidden by explicit interface implementation, in order to call into the base class implementation, a derived class must cast the base pointer to the relevant interface. When calling through this reference, however, the derived class implementation will actually be invoked, resulting in recursion and an eventual stack overflow.</Description>
+   <Resolution Name="Default">Make {0} sealed (a breaking change if this class has previously shipped), implement the method non-explicitly, or implement a new method that exposes the functionality of {1} and is visible to derived classes.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182153(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204">
+   <Name>Literals should be spelled correctly</Name>
+   <Description>This rule parses the literal string into words, tokenizing compound words, and checks the spelling of each word/token.</Description>
+   <Resolution Name="Default">Correct the spelling of the unrecognized token '{0}' in the literal '{1}'.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/bb264488(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822">
+   <Name>Mark members as static</Name>
+   <Description>Methods which do not access instance data or call instance methods can be marked as static (Shared in Visual Basic). After doing so, the compiler will emit non-virtual call sites to these members which will prevent a check at runtime for each call that ensures the current object pointer is non-null. This can result in a measurable performance gain for performance-sensitive code. In some cases, the failure to access the current object instance represents a correctness issue.</Description>
+   <Resolution Name="Default">The 'this' parameter (or 'Me' in Visual Basic) of {0} is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms245046(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804">
+   <Name>Remove unused locals</Name>
+   <Description>Remove locals that are not used or are only assigned to in method implementations.</Description>
+   <Resolution Name="Default">{0} declares a variable, {1}, of type {2}, which is never used or is only assigned to. Use this variable or remove it.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182278(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305">
+   <Name>Specify IFormatProvider</Name>
+   <Description>If an overload exists that takes an IFormatProvider argument, it should always be called in favor of an overload that does not. Some methods in the runtime convert a value to or from a string representation and take a string parameter that contains one or more characters, called format specifiers, which indicate how the value is to be converted. If the meaning of the format specifier varies by culture, a formatting object supplies the actual characters used in the string representation. In scenarios where sorting and comparison behavior should never change between cultures, specify CultureInfo.InvariantCulture, otherwise, specify CultureInfo.CurrentCulture.</Description>
+   <Resolution Name="IFormatProviderAlternateString">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be displayed to the user, specify {3} as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify {4}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182190(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001">
+   <Name>Types that own disposable fields should be disposable</Name>
+   <Description>Types that declare disposable members should also implement IDisposable. If the type does not own any unmanaged resources, do not implement a finalizer on it.</Description>
+   <Resolution Name="DependsOnFix">Implement IDisposable on {0} because it creates members of the following IDisposable types: {1}. If {0} has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182172(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024">
+   <Name>Use properties where appropriate</Name>
+   <Description>Properties should be used instead of Get/Set methods in most situations. Methods are preferable to properties in the following situations: the operation is a conversion, is expensive or has an observable side-effect; the order of execution is important; calling the member twice in succession creates different results; a member is static but returns a mutable value; or the member returns an array.</Description>
+   <Resolution Name="Default">Change {0} to a property if appropriate.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182181(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062">
+   <Name>Validate arguments of public methods</Name>
+   <Description>All reference arguments passed to externally visible methods should be checked against null (Nothing in VB). If appropriate, throw a System.ArgumentNullException when the argument is null.</Description>
+   <Resolution Name="Default">In externally visible method {0}, validate parameter '{1}' before using it.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182182(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="11.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

@@ -1,0 +1,251 @@
+.form-horizontal .form-group {
+    border-bottom: 1px solid #eff2f7;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.tab-bg-info {
+    background: #121215;
+    border-bottom: none;
+}
+.follow-ava {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 5px solid rgba(0,0,0,0.1);
+    display: inline-block;
+}
+   /*profile-widget*/
+
+.profile-widget {
+    color: #fff;
+    text-align: center;
+}
+
+/*profile-widget image bg*/
+.profile-widget-img {
+    background: url('../img/backgrounds/bg-11-small.jpg') no-repeat !important;
+}
+
+.profile-nav .profile-widget-img .bg-layer {
+    background: rgba(0,0,0,0.5) !important;
+}
+
+.profile-widget-img .panel-body {
+    background: rgba(0,0,0,0.5) !important;
+}
+
+.profile-widget-img .profile-widget-foot {
+    background: rgba(0,0,0,0.8);
+}
+
+.profile-widget p {
+    font-weight: 300;
+    /*margin-bottom: 15px;*/
+}
+
+.profile-widget {
+    /*padding-left: 20px 15px 30px 15px;*/
+}
+
+    .profile-widget .twt-category {
+        display: inline-block;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        width: 100%;
+        padding: 0px;
+    }
+
+        .profile-widget .twt-category ul li {
+            color: #ffffff;
+        }
+
+.knob-charts {
+    margin-top: 10px;
+}
+
+.follow-task {
+    padding: 5px;
+}
+
+    .follow-task a {
+        color: #ffffff;
+        width: 15%;
+        display: inline-block;
+    }
+
+        .follow-task a span.badge {
+            top: -12px;
+            position: relative;
+            left: -8px;
+            background: #FFFFFF;
+            color: #34AADC;
+        }
+
+    .follow-task i {
+        font-size: 20px;
+    }
+
+.profile-widget-foot {
+    padding: 8px 5px 5px 5px;
+    background: rgba(0,0,0,0.1);
+    color: #757575;
+    font-weight: 300;
+}
+
+.profile-foot {
+    padding: 8px 5px 5px 5px;
+    background: rgba(0,0,0,0.1);
+    color: #ffffff;
+    font-weight: 300;
+    overflow: hidden;
+}
+
+    .profile-foot .active {
+    }
+
+    .profile-foot a {
+        color: #ffffff;
+    }
+
+.profile-widget-foot ul {
+    padding: 0;
+    margin: 0;
+}
+
+    .profile-widget-foot ul li {
+        display: inline-block;
+        text-align: center;
+        width: 48%;
+        line-height: normal;
+    }
+
+        .profile-widget-foot ul li h5 {
+            margin: 5px 0 0 0;
+        }
+
+.follow-info {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.profile-widget h4 {
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.profile-widget h6 {
+    margin: 0px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.9);
+    font-weight: 300;
+}
+
+    .profile-widget h6 span i {
+        padding-right: 4px;
+    }
+
+    .profile-widget h6 span {
+        padding-right: 8px;
+    }
+
+.project-team, .panel-title, .progress-panel {
+    background: #F7F7F7;
+}
+
+.profile-ava img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 2px solid #688a7e;
+    display: inline-block;
+}
+
+    .profile-ava img.simple {
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border: 2px solid rgba(0,112,255,0.4);
+        display: inline-block;
+    }
+
+.profile-name {
+    margin: 0px;
+    font-size: 16px;
+}
+
+.profile-occupation {
+    margin: 0px;
+    font-size: 12px;
+}
+
+.follow-ava {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 5px solid rgba(0,0,0,0.1);
+    display: inline-block;
+}
+
+.timeline-ava {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 5px solid #688a7e;
+    display: inline-block;
+}
+
+    .timeline-ava img {
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+
+.profile-widget img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    /*display: inline-block;*/
+}
+
+.profile-widget-img .panel-body {
+    background: rgba(0,0,0,0.5) !important;
+}
+
+.profile-widget-img .profile-widget-foot {
+    background: rgba(0,0,0,0.8);
+}
+.tab-bg-info {
+    background: #121215;
+    border-bottom: none;
+}
+.bio-graph-heading {
+    background: #263a4f;
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    padding: 40px 110px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.bio-graph-info {
+    color: #89817e;
+}
+
+    .bio-graph-info h1 {
+        font-size: 22px;
+        font-weight: 300;
+        margin: 0 0 20px;
+    }
+
+.bio-row {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+
+    .bio-row p span {
+        width: 100px;
+        display: inline-block;
+    }
